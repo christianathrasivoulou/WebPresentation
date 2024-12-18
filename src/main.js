@@ -20,7 +20,7 @@ const pages = [
   },
   {
     content: `
-  <div class="custom-background" style="background: rgba(0, 0, 0, 0.9) url('/assets/OIP.jpg'); background-size: cover;">
+  <div class="custom-background" style="background: rgba(0, 0, 0, 0.9) url('./assets/OIP.jpg'); background-size: cover;">
     <h3 style="font-size: 30px; text-align: center; color: white; margin-bottom: 60px">ABOUT ME</h3>
     <section id="page-content" style="color: black">
       <div style="display: flex; gap: 40px; align-items: center; margin-bottom: 100px;">
@@ -54,7 +54,7 @@ const pages = [
   },
   {
     content: `
-  <div class="custom-background" style="background: url('/assets/OIP.jpg');  background-size: cover;">
+  <div class="custom-background" style="background: url('./assets/OIP.jpg');  background-size: cover;">
     <h3 style="font-size: 30px; text-align: center; color: white; margin-bottom: 60px;">Latest Roles and Achievements</h3>
 
     <!-- First Achievement Box -->
@@ -210,7 +210,7 @@ const pages = [
       color: #666;
       font-family: 'Roboto', sans-serif;
       position: relative;
-      background: url('/assets/OIP.jpg');
+      background: url('./assets/OIP.jpg');
       background-size: cover;
       box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
     ">
