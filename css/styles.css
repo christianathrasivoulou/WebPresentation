@@ -1,0 +1,167 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f3f4f6, #e3e6e8);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; /* To position navigation buttons absolutely within the body */
+}
+
+/* Container */
+.container {
+    width: 80%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background: #fff; /* Fallback background */
+}
+
+/* Custom Background Section */
+.custom-background {
+    position: relative;
+
+    padding: 70px 100px 100px 100px;
+    color: #ffffff; /* Ensure text is white for contrast */
+}
+
+/* Overlay for .custom-background */
+.custom-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.custom-background > * {
+    position: relative;
+    z-index: 1;
+}
+
+.header h2 {
+    font-size: 2rem;
+}
+
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    height: 5px;
+    position: relative;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background: #505050;
+    transition: width 0.3s ease;
+}
+
+/* Main Content */
+.main-content {
+    text-align: center;
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#page-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+/* Navigation Buttons */
+.nav-button {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(160, 160, 160, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+    z-index: 1000;
+}
+
+.nav-button:hover {
+    background: #505050;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.nav-button:disabled {
+    background: rgba(0, 0, 0, 0.1);
+    cursor: not-allowed;
+    transform: translateY(-50%) scale(1);
+}
+
+.left-button {
+    left: 20px;
+}
+
+.right-button {
+    right: 20px;
+}
+
+.main-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Custom List Styling */
+.custom-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0 0 0 2rem;
+}
+
+.custom-list li {
+    position: relative;
+    margin-bottom: 0.8em;
+    padding-left: 1.5em;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.custom-list li::before {
+    content: "\f00c"; /* Font Awesome check icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure Font Awesome is loaded */
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+}
