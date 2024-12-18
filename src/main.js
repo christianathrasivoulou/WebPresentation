@@ -1,7 +1,7 @@
 const pages = [
   {
     content: `
-<div class="custom-background" style="background: rgba(0, 0, 0, 0.7) url('../assets/OIP.jpg'); background-size: cover;">
+<div class="custom-background" style="background: rgba(0, 0, 0, 0.7) url('/assets/OIP.jpg'); background-size: cover;">
       <h3 style="font-size: 30px; text-align: center; color: white; margin-bottom: 60px">Welcome to My Personal Branding Website!</h3>
         <section id="page-content">
           <p>As a dedicated digital marketing consultant, my name is <strong>Christiana Thrasivoulou</strong>, and I work to assist brands succeed in the digital sphere. With a strong background in branding principles and a talent for creative digital tactics, I work hard to increase participation and development in any project I take on.</p>
@@ -20,12 +20,12 @@ const pages = [
   },
   {
     content: `
-  <div class="custom-background" style="background: rgba(0, 0, 0, 0.9) url('../assets/OIP.jpg'); background-size: cover;">
+  <div class="custom-background" style="background: rgba(0, 0, 0, 0.9) url('/assets/OIP.jpg'); background-size: cover;">
     <h3 style="font-size: 30px; text-align: center; color: white; margin-bottom: 60px">ABOUT ME</h3>
     <section id="page-content" style="color: black">
       <div style="display: flex; gap: 40px; align-items: center; margin-bottom: 100px;">
         <div style="flex: 1;">
-          <img src="../assets/OIP1.jpg" alt="Abstract Digital Image" style="width: 450px; height: auto; border-radius: 10px;">
+          <img src="/assets/OIP1.jpg" alt="Abstract Digital Image" style="width: 450px; height: auto; border-radius: 10px;">
         </div>
         <div style="flex: 2; background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 20px; border: 2px solid #28a745;">
           <p>As a committed online advertising analysts, I use creative and successful tactics to assist 
@@ -44,7 +44,7 @@ const pages = [
           <p>I leverage my proficiency in traditional advertising, content production, and data analysis to ensure businesses stand out in competitive markets. My approach is grounded in honesty, creativity, teamwork, and integrity, ensuring campaigns resonate with their target audience while showcasing the brand's unique personality.</p>
         </div>
         <div style="flex: 1;">
-          <img src="../assets/Data.webp" alt="Marketing Analysis Image" style="width: 450px; height: auto; border-radius: 10px;">
+          <img src="/assets/Data.webp" alt="Marketing Analysis Image" style="width: 450px; height: auto; border-radius: 10px;">
         </div>
       </div>
     </section>
@@ -54,13 +54,13 @@ const pages = [
   },
   {
     content: `
-  <div class="custom-background" style="background: url('../assets/OIP.jpg');  background-size: cover;">
+  <div class="custom-background" style="background: url('/assets/OIP.jpg');  background-size: cover;">
     <h3 style="font-size: 30px; text-align: center; color: white; margin-bottom: 60px;">Latest Roles and Achievements</h3>
 
     <!-- First Achievement Box -->
     <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 50px; color: black">
       <div style="flex: 1; text-align: center;">
-        <img src="../assets/OIP2.jpg" alt="Garnier Logo" style="width: 300px; height: auto;">
+        <img src="/assets/OIP2.jpg" alt="Garnier Logo" style="width: 300px; height: auto;">
       </div>
       <div style="flex: 2; background: #fff; border: 2px solid #28a745; border-radius: 10px; padding: 20px;">
         <h4 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">GARNIER</h4>
@@ -81,14 +81,14 @@ const pages = [
         </p>
       </div>
       <div style="flex: 1; text-align: center;">
-        <img src="../assets/R.jpg" alt="L'Oréal Logo" style="width: 300px; height: auto;">
+        <img src="/assets/R.jpg" alt="L'Oréal Logo" style="width: 300px; height: auto;">
       </div>
     </div>
 
     <!-- Third Achievement Box -->
     <div style="display: flex; align-items: center; gap: 20px; color: black;">
       <div style="flex: 1; text-align: center;">
-        <img src="../assets/OIP3.jpg" alt="Pantene Logo" style="width: 300px; height: auto;">
+        <img src="/assets/OIP3.jpg" alt="Pantene Logo" style="width: 300px; height: auto;">
       </div>
       <div style="flex: 2; background: #fff; border: 2px solid #28a745; border-radius: 10px; padding: 20px;">
         <h4 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px;">Pantene</h4>
@@ -110,7 +110,7 @@ const pages = [
     <!-- Goal 1: Boost Customer Involvement -->
     <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-bottom: 40px;">
       <div>
-        <img src="../assets/OIP4.jpg" alt="Team Collaboration" style="width: 400px; height: auto; border-radius: 10px;">
+        <img src="/assets/OIP4.jpg" alt="Team Collaboration" style="width: 400px; height: auto; border-radius: 10px;">
       </div>
       <div style="width: 50%; background: #b0c4de; border-radius: 25px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
         <p style="font-size: 1.2rem; line-height: 1.5; font-style: italic; text-align: center;">
@@ -129,14 +129,14 @@ const pages = [
         </p>
       </div>
       <div>
-        <img src="../assets/wp7098404.png" alt="SEO Strategy" style="width: 400px; height: auto; border-radius: 10px;">
+        <img src="/assets/wp7098404.png" alt="SEO Strategy" style="width: 400px; height: auto; border-radius: 10px;">
       </div>
     </div>
 
     <!-- Goal 3: Improve Team Dynamics and Management -->
     <div style="display: flex; align-items: center; justify-content: center; gap: 30px;">
       <div>
-        <img src="../assets/2655955.webp" alt="Team Mentoring" style="width: 400px; height: auto; border-radius: 10px;">
+        <img src="/assets/2655955.webp" alt="Team Mentoring" style="width: 400px; height: auto; border-radius: 10px;">
       </div>
       <div style="width: 50%; background: #b0c4de; border-radius: 25px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
         <p style="font-size: 1.2rem; line-height: 1.5; font-style: italic; text-align: center;">
@@ -163,14 +163,14 @@ const pages = [
         </p>
       </div>
       <div>
-        <img src="../assets/OIP5.jpg" alt="Global Expansion" style="width: 400px; height: auto; border-radius: 10px;">
+        <img src="/assets/OIP5.jpg" alt="Global Expansion" style="width: 400px; height: auto; border-radius: 10px;">
       </div>
     </div>
 
     <!-- Goal 2: Increase Brand Awareness and Engagement -->
     <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-bottom: 40px;">
       <div>
-        <img src="../assets/OIP7.jpg" alt="Brand Awareness" style="width: 400px; height: auto; border-radius: 10px;">
+        <img src="/assets/OIP7.jpg" alt="Brand Awareness" style="width: 400px; height: auto; border-radius: 10px;">
       </div>
       <div style="width: 50%; background: #b0c4de; border-radius: 25px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
         <p style="font-size: 1.2rem; line-height: 1.5; font-style: italic; text-align: center;">
@@ -189,7 +189,7 @@ const pages = [
         </p>
       </div>
       <div>
-        <img src="../assets/OIP6.jpg" alt="Thought Leadership" style="width: 400px; height: auto; border-radius: 10px;">
+        <img src="/assets/OIP6.jpg" alt="Thought Leadership" style="width: 400px; height: auto; border-radius: 10px;">
       </div>
     </div>
   </div>
@@ -210,7 +210,7 @@ const pages = [
       color: #666;
       font-family: 'Roboto', sans-serif;
       position: relative;
-      background: url('../assets/OIP.jpg');
+      background: url('/assets/OIP.jpg');
       background-size: cover;
       box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
     ">
